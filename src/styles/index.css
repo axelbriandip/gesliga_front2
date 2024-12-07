@@ -1,1 +1,16 @@
 @import url('./reset.css');
+
+:root {
+    --white: #fff;
+    --slate-white: #eee;
+}
+
+body {
+    background-color: var(--slate-white);
+}
+
+.app-container {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}

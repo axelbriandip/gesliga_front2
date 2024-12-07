@@ -1,0 +1,19 @@
+@import url('./index.css');
+
+.nav-container {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container .logo img {
+    height: 4rem;
+}
+
+.nav-container .buttons {
+    display: flex;
+    gap: 1rem;
+}

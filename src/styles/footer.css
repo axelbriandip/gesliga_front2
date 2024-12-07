@@ -1,0 +1,10 @@
+@import url('./index.css');
+
+.footer-container {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
