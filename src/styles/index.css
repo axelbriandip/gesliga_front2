@@ -1,16 +1,95 @@
 @import url('./reset.css');
+@import url('./pages/login-page.css');
 
+/* Importación desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Source+Sans+Pro:wght@400;500&display=swap');
+
+/* Variables de fuentes */
 :root {
-    --white: #fff;
-    --slate-white: #eee;
+  --font-title: 'Oswald', sans-serif;
+  --font-body: 'Source Sans Pro', sans-serif;
+
+  /* Ejemplo de colores (de tu paleta) */
+  --color-primary: #033860;
+  --color-secondary: #ffc33d;
+  --color-text: #212529;
+  --color-background: #f5f7fa;
 }
 
+/* Estilos básicos */
 body {
-    background-color: var(--slate-white);
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  /* padding: 1rem; */
 }
 
-.app-container {
-    display: grid;
-    min-height: 100dvh;
-    grid-template-rows: auto 1fr auto;
+h1, h2, h3, h4 {
+  font-family: var(--font-title);
+  color: var(--color-primary);
 }
+
+p, span, a {
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+/* Botones */
+button {
+  font-family: var(--font-title);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6b635;
+}
+
+/* Encabezados */
+h1 {
+    font-size: 36px; /* Título principal */
+    line-height: 1.2;
+  }
+  
+  h2 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+  
+  h3 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  
+  h4 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  
+  /* Texto principal */
+  p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  span, a {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Botones */
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
+  /* Texto de subtítulos o información secundaria */
+  .small-text {
+    font-size: 14px;
+    line-height: 1.6;
+  }  

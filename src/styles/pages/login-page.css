@@ -1,0 +1,53 @@
+/* Contenedor principal del login que ocupa todo el alto del dispositivo */
+.login-container {
+  height: 100vh; /* Establecer el alto al 100% de la altura del viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+  background: linear-gradient(to right, #033860, #f5f7fa); /* Fondo con degradado para una mejor experiencia visual */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.login-container img {
+  width: 6rem;
+  margin: 1rem 0;
+}
+
+/* Contenedor interno para el formulario de inicio de sesión */
+.login-form {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  color: #212529;
+}
+
+/* Estilado de botones y campos de formulario */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d9dde3;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffc33d;
+  border: none;
+  color: #033860;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #e6b635;
+}
