@@ -1,0 +1,15 @@
+@import url('./index.css');
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}

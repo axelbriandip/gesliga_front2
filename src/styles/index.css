@@ -1,6 +1,7 @@
 @import url('./reset.css');
 @import url('./pages/login-page.css');
 @import url('./nav.css');
+@import url('./footer.css');
 
 /* Importación desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Source+Sans+Pro:wght@400;500&display=swap');
@@ -22,7 +23,7 @@ body {
   font-family: var(--font-body);
   background-color: var(--color-background);
   color: var(--color-text);
-  margin: 0;
+  margin: 0 0 2rem 0;
   /* padding: 1rem; */
 }
 

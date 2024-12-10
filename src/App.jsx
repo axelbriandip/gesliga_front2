@@ -3,6 +3,7 @@ import './styles/index.css';
 import LoginPage from './pages/LoginPage';
 import AdminPage from './pages/AdminPage';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Route path='/admin' element={<AdminPage/>}></Route>
           </Routes>
         </main>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
     </div>
   )
